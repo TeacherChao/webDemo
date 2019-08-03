@@ -1,10 +1,12 @@
-package Bean;
+package bean;
+
 import java.sql.*;
-public class Login {
+
+public class Login  {
     private String driverStr = "com.mysql.jdbc.Driver";
-    private String connStr = "jdbc:mysql://localhost:3306/student";
+    private String connStr = "jdbc:mysql://118.24.247.119:3306/chao";
     private String dbusername = "root";
-    private String dbpassword = "root";
+    private String dbpassword = "1314251";
     private Connection conn = null;
     private Statement stmt = null;
 
